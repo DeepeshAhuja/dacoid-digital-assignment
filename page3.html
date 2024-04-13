@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Page-3</title>
+</head>
+<body>
+    <div>
+        <div class="text-xl font-bold mx-4 mt-4 md:text-3xl">Create an account</div>
+    </div>
+    <form action="">
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+            <!-- <div class="sm:col-span-3"> -->
+              <!-- <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label> -->
+              <div class="mx-4">
+                <!-- <input type="text" name="first-name" placeholder="First Name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 by-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> -->
+                <input type="text" placeholder="First Name" name="firstName" class="my-3 w-full bg-gray-200 border rounded-md px-3 py-2 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+                <input type="text" placeholder="Last Name" name="lastName" class="bg-gray-200 my-3 w-full border rounded-md px-3 py-2 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+                <input type="text" placeholder="Email" name="email" class="my-3 w-full border rounded-md px-3 py-2 bg-gray-200 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+                <input type="text" placeholder="Password" name="password" class="my-3 w-full border rounded-md px-3 py-2 bg-gray-200 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+              </div>
+            <!-- </div> -->
+            <div class="flex justify-center">
+            <input type="checkbox" name="checkbox" class=" checked:accent-pink-500 cursor-pointer rounded h-5 w-5 "/>
+            <!-- <input type="checkbox" name="checkbox" class="appearance-none border-2 border-black-500 rounded-md h-5 w-5 cursor-pointer checked:bg-pink-500 checked:border-0"/> -->
+            <label for="checkbox" class="inline-block ml-2 text-sm text-gray-500">By proceeding, I agree to all <a href="" class="underline text-blue-500">T&C</a> and <a href="" class="underline text-blue-500">Privacy Policy</a></label>
+          </div>
+          </div>
+<div class="flex items-center mt-24 justify-center">
+       <a href="./page5.html"><button type="submit" class="bg-gradient-to-r from-blue-300 to-indigo-400 text-white py-2 mx-4 rounded-lg font-bold w-full">Create an Account</button></a>
+      </div>
+    </form>
+</body>
+</html>
