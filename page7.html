@@ -8,7 +8,7 @@
 </head>
 <body class="bg-white-100">
     <div class="flex items-center mx-4">
-        <img src="../img/back.png" alt="Image description" class="w-3 h-3 rounded-lg mr-2 "> <p class="flex-grow text-center font-bold text-lg ">Workout Schedule</p>
+        <a href="../page6.html"><img src="../img/back.png" alt="Image description" class="w-4 h-4 rounded-lg mr-2 "></a> <p class="flex-grow text-center font-bold text-lg ">Workout Schedule</p>
       </div>
 
       
@@ -19,10 +19,96 @@
           <img src="../img/right_arrow.png" alt="previous month" class="w-2 h-2 ml-3">
           </div>
 
-        
-      
+        <div class="grid grid-cols-5 gap-1 px-4 py-2 justify-between items-center">
+          <div class="text-center font-base py-2">
+            <p class="text-[12px]">Sun</p>
+            <div class="text-center font-semibold text-2xl">5</div>
+          </div>
+          
+          <div class="text-center font- bg-gradient-to-r from-blue-100 to-indigo-400 rounded-lg text-white py-2 text-sm">
+            <p class="text-[12px]">Mon</p>
+            <div class="text-center font-semibold text-2xl">6</div>
+          </div>
+          <div class="text-center font-base py-2 text-sm">
+            <p class="text-[12px]">Tue</p>
+            <div class="text-center font-semibold text-2xl">7</div>
+          </div>
+          <div class="text-center font-base py-2 text-sm">
+            <p class="text-[12px]">Wed</p>
+            <div class="text-center font-semibold text-2xl">8</div>
+          </div>
+          
+          <div class="text-center font-base py-2text-sm">
+            <p class="text-[12px]">Thu</p>
+            <div class="text-center font-semibold text-2xl">9</div>
+          </div>
 
+          <div class="flex-grow"></div> 
+          
+          </div>
+      </div>
+      
+<div class="flex flex-col">
+  <p class="my-2 text-sm font-semibold mx-4">6:00 AM</p>
+  <hr>
+  <p class="my-2 text-sm font-semibold mx-4">7:00 AM</p>
+      <div class="flex items-center ">
+        <div class="flex-1 border-t-2 border-gray-200"></div>
+        <div class="bg-gradient-to-r from-fuchsia-300 to-purple-300 rounded-xl text-white text-semibold">
+        <span class="py-2 px-4 text-sm">Abs Workout, 7:30am</span>
+      </div>
+    </div>
+  <p class="my-2 text-sm font-semibold mx-4">8:00 AM</p>
+  <hr>
+  <div class="flex items-center ">
+  <p class="my-2 text-sm font-semibold ml-4">9:00 AM</p>
+  
+    <div class="bg-gradient-to-r from-fuchsia-300 to-purple-300 rounded-2xl text-white text-semibold ml-2 py-1">
+    <span class=" px-4 text-[13px]">Upperbody Workout, 9:00am</span>
     
+  </div>
+  
+</div>
+<div class="flex-1 border-t-2 border-blue-300 ml-2 mr-16"></div>
+<hr>
+  <p class="my-2 text-sm font-semibold mx-4">10:00 AM</p>
+  <hr>
+  <p class="my-2 text-sm font-semibold mx-4">11:00 AM</p>
+  <hr>
+  <p class="my-2 text-sm font-semibold mx-4">12:00 PM</p>
+  <hr>
+  <p class="my-2 text-sm font-semibold mx-4">1:00 PM</p>
+  <hr>
+  
+  <div class="flex items-center ">
+    <p class="my-2 text-sm font-semibold ml-4">2:00 PM</p>
+    
+      <div class="bg-slate-200 rounded-xl text-black text-bold ml-2 ">
+      <span class=" px-4 text-sm">Lowerbody Workout, 3pm</span>
+      
+    </div>
+    
+  </div>
+  <hr>
+
+  <p class="my-2 text-sm font-semibold mx-4">3:00 PM</p>
+  <hr>
+<div class="fixed right-10 bottom-24 transform -translate-x-1/2 inline-flexbg-white">
+  <button class="relative inline-flex flex-col items-center bottom-10 flex-grow">
+    <div class = "text-white shadow-xl flex items-center justify-center p-6 rounded-full bg-gradient-to-r from-fuchsia-300  to-purple-300 z-50 absolute  ">
+      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.216 16.032V0.767999H9.484V16.032H7.216ZM0.52 9.48V7.356H16.18V9.48H0.52Z" fill="white"/>
+        </svg>
+        
+  </div>
+  </button>
+  </div>
+
+  <p class="my-2 text-sm font-semibold mx-4">4:00 PM</p>
+  <hr>
+  <p class="my-2 text-sm font-seibold mx-4">5:00 PM</p>
+  <hr>
+</div>
 
 
                     <div class=" align-bottom fixed bottom-0 left-1/2 transform -translate-x-1/2 inline-flex justify-between bg-white w-full">
@@ -31,18 +117,8 @@
                           class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 flex-grow"
                           href="#"
                         >
-                         <img src="../img/home.png" alt="home" class="home w-7 h-7 items-center">
-                         <img src="../img/home2.png" alt="home" class="home2 w-7 h-7 items-center hidden">
-                         <style> 
-                          .home:hover{
-                            display: none;
-                            opacity: 0;
-                          }
-                          .home2:hover{
-                            display: block;
-                            opacity: 100;
-                          }
-                         </style>
+                         <img src="../img/home.png" alt="home" class="home w-7 h-7 items-center hover:hidden">
+                         <img src="../img/home2.png" alt="home" class="home2 w-7 h-7 items-center hidden hover:block">
                         </a>
                     
                         <a
